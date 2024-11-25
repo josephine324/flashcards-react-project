@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+  }
+  
+  .container {
+    margin-top: 20%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  #quote {
+    font-size: 1.5em;
+    color: #555;
+  }
+  
