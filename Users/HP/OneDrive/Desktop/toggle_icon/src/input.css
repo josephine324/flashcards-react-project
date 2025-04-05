@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@theme {
+    --font-display: "Outfit", "sans-serif";
+    --color-custom-green: #00672E;
+    --color-primary: #EFECEA;
+}
