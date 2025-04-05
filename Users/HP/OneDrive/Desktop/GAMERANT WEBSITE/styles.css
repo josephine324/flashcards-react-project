@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;/* * astreist resets the default styles on elements only */ 
+    font-family: Roboto,sans-serif;
+
+}
+html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width:100%;
+    color: black;
+  
+
+}/*This is also important because they contribute to how tou would expect your page to look like */
+header {
+    background-color: black;
+}
+.nav-svg .size-2 {
+    width: 30px;
+    height: 40px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    gap:32px;
+    /* background-color: blue; */
+    margin-top:15px;
+    background-color: black;
+}
+.nav-img {
+    width: 200px;
+}
+.btn{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    justify-content: center;
+    width:130px;
+    height:40px;
+   
+}
+.btn .size-2 {
+    width: 40px;
+    height:25px;
+    margin-top: 5px;
+}
+.btn p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+hr {
+    background-color: grey;
+    height:1px;
+    border:none;
+    margin-top: 5px;
+}
+.hero {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center; 
+    color:white;
+    align-items: center;
+    font-size: 16px;
+    padding: 0 40px;
+    gap:32px;
+    background-color: black;
+
+}
+.hero ul {
+    display:flex;
+    list-style-position: inside;
+    padding:0;
+    gap:10px;
+}
+ul li::marker{
+    color:grey;
+    font-size:28px;
+}
+.text-trend{
+    color:rgb(244,121,56);
+}
+.second-hero {
+    display:flex;
+    background-color: rgb(37,37,37);
+    color:white;
+}
+.games{
+    background-color: rgb(51,51,51);
+    color:white;
+}
+.variety {
+    
+}
+.first-div{
+    background-color:red;
+    height: 10px;
+    width:200px;
+    display: flex;
+    gap:16px;
+}
+.second-hero img {
+    width:800px;
+    height:500px;
+    /* border-radius:8px; */
+}
+.img-3 img {
+    width:150px;
+    height:100px;
+}
+.img-4 img {
+    width:150px;
+    height:100px;
+}
+.img-5 img{
+    width:150px;
+    height:100px; 
+}
+/* media queries for the nav bar*/
+@media (maxwidth:768px) {
+    .btn{
+        background-color: transparent;
+       
+    }
+    .btn p {
+        overflow:hidden;
+    }
+}
