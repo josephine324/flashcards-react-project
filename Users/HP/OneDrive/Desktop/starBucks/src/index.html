@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="flex mt-9 justify-between items-center mb-5">
+            <div class="flex items-center">
+                <img src="img/8e9d4bd1-7ecc-4c2c-b562-2350f320b810.svg" class="w-16 mr-10 ml-14">
+                <div class="hidden lg:flex gap-6 justify-around font-bold">
+                    <p>MENU</p>
+                    <p>REWARDS</p>
+                    <p>GIFT CARDS</p>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <div class="flex gap-3">
+                    <img src="img/38f349c6-5cb3-413c-99b4-80f7ec055ec4.svg" class="w-7">
+                    <p class="text-lg font-semibold pr-16">Find a store</p>
+                    <p class="text-lg font-semibold border-black border-2 rounded-full p-1 w-24 flex justify-center items-center">Sign in</p>
+                    <p class="text-lg font-semibold border-black border-2 rounded-full p-1 w-24 flex justify-center items-center bg-black text-white">Join now</p>
+                </div>
+                
+                <!-- Hamburger Icon -->
+                <div class="lg:hidden ml-5">
+                    <button id="hamburger-btn" class="text-2xl">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="lg:hidden fixed top-0 left-0 w-full h-screen bg-white z-10 hidden">
+            <div class="flex flex-col items-center mt-24">
+                <p class="py-2">MENU</p>
+                <p class="py-2">REWARDS</p>
+                <p class="py-2">GIFT CARDS</p>
+                <p class="py-2">Find a store</p>
+                <p class="py-2">Sign in</p>
+                <p class="py-2 bg-black text-white w-24 text-center rounded-full">Join now</p>
+            </div>
+        </div>
+        
+        <!-- Tailwind CSS + FontAwesome for hamburger icon -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        
+        <hr class="border-gray-700 p-6">
+    </header>
+    <main>
+        <section class="grid grid-cols-2 gap-5 bg-customGreen">
+            <div>
+                <img src="img/137-96799.jpeg" class="w-full h-auto">
+            </div>
+            <div class=" text-white mt-36 text-center">
+                <p class="text-5xl font-semibold text-center">More reasons to <br> <span class="pl-14">stay awhile</span></p>
+                <p class="text-3xl font-light mt-10 text-center">Mugs, glasses and the condiment bar are <br> back—and all for-here orders include <br> freshly brewed refills on coffee and tea.</p>
+                <button class="text-xl font-light mt-10 border p-2 rounded-full w-1/4" >Learn More</button>
+            </div>
+        </section>
+        <section class="grid grid-cols-2 bg-lightGreen mt-10">
+            <div class="items-center flex justify-center flex-col">
+                <p class="text-shaken font-semibold text-7xl pb-8">Shaken to<br>perfection</p>
+                <p class="font-normal text-3xl text-shaken">Experience a feel-good Iced Brown Sugar<br> Oatmilk Shaken Espresso or Iced Hazelnut<br>Oatmilk Shaken Espresso—made<br> with Starbucks® Blonde Espresso, and just 150 <br><span class="pl-44">calories for a grande.</span></p>
+                <button class="text-xl font-bold mt-10 border p-2 rounded-full w-1/4 text-shaken border-shaken">Add to order</button>
+            </div>
+            <div>
+                <img src="img/137-96803.jpeg" class="w-full h-auto">
+            </div>
+        </section>
+        <section class="grid grid-cols-2 bg-chocolate mt-10">
+            <div>
+                <img src="img/137-96750.jpeg" class="w-full h-auto">
+            </div>
+            <div class="text-white mt-24 ml-32 text-2xl">
+                <h1 class="font-bold ml-12">It’s a great day for free coffee</h1>
+                <p class="mt-10">Start your Starbucks® Rewards journey with a coffee<br> on us. Join now and enjoy a free handcrafted drink<br> with a qualifying purchase during your first week.*</p>
+                <button class="text-xl font-bold mt-10 border p-2 rounded-full w-1/4 ml-44">Join now</button>
+            </div>
+        </section>
+        <section>
+            <p class="mt-20 text-center font-medium text-lg">*Valid for new Starbucks Rewards members for 7 days from sign up. Coupon will be available in the<br>offers tab of your Starbucks app following sign up and may take up to 48 hours to arrive. Good at<br> participating U.S. stores for a handcrafted menu-sized beverage with qualifying purchase ($8 max<br> value). Qualifying purchase excludes alcohol, Starbucks Card and Card reloads. Limit one. Cannot <br>be combined with other offers or discounts. Excludes delivery services. Sign up before 3/30/2025.</p>
+        </section>
+        <hr class="border-gray-700 p-6 mt-6">
+    </main>
+    <footer>
+        <div class="flex gap-14 justify-evenly">
+            <div class="space-y-6">
+                <h1 class="text-2xl font-medium">About Us</h1>
+                <p class="text-gray-300 text-xl">Our Company</p>
+                <p class="text-gray-300 text-xl">Our Coffee</p>
+                <p class="text-gray-300 text-xl">Starbucks Archive</p>
+                <p class="text-gray-300 text-xl">Investor Relations</p>
+                <p class="text-gray-300 text-xl">Customer Service</p>
+                <p class="text-gray-300 text-xl">Contact Us</p>
+            </div>
+            <div class="space-y-6">
+                <h1 class="text-2xl font-medium">Careers</h1>
+                <p class="text-gray-300 text-xl">Culture and Values</p>
+                <p class="text-gray-300 text-xl">Inclusion, Diversity,& Belonging</p>
+                <p class="text-gray-300 text-xl">College Achievement Plan</p>
+                <p class="text-gray-300 text-xl" >Alumni Community</p>
+                <p class="text-gray-300 text-xl">U.S Careers</p>
+                <p class="text-gray-300 text-xl">International Careers</p>
+            </div>
+            <div class="space-y-6">
+                <h1 class="text-2xl font-medium">Social Impact</h1>
+                <p class="text-gray-300 text-xl">Communities</p>
+                <p class="text-gray-300 text-xl">Starbucks Foundation</p>
+                <p class="text-gray-300 text-xl">Sustainability</p>
+                <p class="text-gray-300 text-xl">Environmental and Social Impact Reporting</p>
+            </div>
+            <div class="space-y-6">
+                <h1 class="text-2xl font-medium">For Business Partners</h1>
+                <p class="text-gray-300 text-xl">Landlord Support Center</p>
+                <p class="text-gray-300 text-xl" class="text-gray-300 text-xl">Suppliers</p>
+                <p class="text-gray-300 text-xl">Corporate Gift Card Sales</p>
+                <p class="text-gray-300 text-xl">Office and Foodservice Coffee</p>
+            </div>
+            <div class="space-y-6">
+                <h1 class="text-2xl font-medium">Order and Pick up</h1>
+                <p class="text-gray-300 text-xl">Order on the App</p>
+                <p class="text-gray-300 text-xl">Order on the web</p>
+                <p class="text-gray-300 text-xl">Delivery</p>
+                <p class="text-gray-300 text-xl" >Order and Pickup Options</p>
+                <p class="text-gray-300 text-xl">Explore and Find coffee for Home</p>
+            </div>
+        </div>
+        <hr class="border-gray-700 p-6 mt-10">
+        <div class="ml-10">
+            <div class="flex w-10 gap-5 pb-8">
+                <img src="img/bd677e47-6a8e-44e2-902c-e7a33b98b09a.svg">
+                <img src="img/f253e268-f391-4754-8ceb-458da6f5cb14.svg">
+                <img src="img/a5c74383-48ee-47b5-8bdc-5964f62ab795.svg">
+                <img src="img/0dd6d1da-ff5d-42ad-9581-947406d37fdf.svg">
+                <img src="img/8f9b1bd9-ac16-49a6-bb3c-83fc181ca16d.svg">
+            </div>
+            <div class="text-xl font-medium leading-loose">
+                <p>Privacy Notice</p>
+                <p>Consumer Health Privacy Notice</p>
+                <p>Terms of Use</p>
+                <p>Do not share my personal Information</p>
+                <p>CA Supply Chain Act</p>
+                <p>Accesibilty</p>
+                <p>Cookie Preferences</p>
+            </div>
+            <div class="flex text-xl font-normal text-gray-400 mt-8">
+                <p>&copy;2025</p>
+                <p>Starbucks Coffee Company.</p>
+                <p>All rights reserved</p>
+            </div>
+        </div>
+        
+
+    </footer>
+</body>
+</html>
